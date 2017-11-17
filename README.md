@@ -2,6 +2,10 @@
 
 > When you just can't decide what episode...
 
+# But the truth
+
+Truth be told, I just didn't want to install some other chrome or firefox extension because I don't always need quick access to tv show randomizers, and I just really wanted to consume an API real quick with Vue.
+
 ## Build Setup
 
 ``` bash
