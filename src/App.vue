@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1>{{ welcomeMessage }}</h1>
+          <router-view/>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      welcomeMessage: 'WHAT TO WATCH?'
+    }
+  }
 }
 </script>
 
 <style>
+@import '../node_modules/bulma/css/bulma.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
